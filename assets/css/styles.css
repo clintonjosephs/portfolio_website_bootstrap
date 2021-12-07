@@ -1,0 +1,70 @@
+/*** Import Font **/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+/** Import font end **/
+.html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome-section {
+    background-color: #f7f7f9;
+}
+
+.logo {
+    font-weight: 700;
+    line-height: 20px;
+    color: #6070ff;
+  }
+  
+  .headline-wrapper {
+    background-image: url("../images/header_section_background_desktop.png");
+    background-size: contain;
+    background-position:top;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 110px;
+    background-color: #fff;
+    height: 820px;
+  }
+
+  .nav-link {
+    color: #344563;
+    font-weight: 500;
+    align-content: center;
+  }
+
+  .intro-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #091e42;
+    margin: 12px 0;
+  }
+  
+  .intro-message {
+    font-size: 18px;
+    color: #344563;
+  }
+  
+  .works {
+      background-color: #f7f7f9;
+  }
+
+  .social-media a {
+    color: #505f79;
+  }
+
+  .social-media {
+    font-size: 20px;
+    color: #505f79;
+    margin: 0 8px 0 0;
+  }
+
+  .social {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .connect {
+    color: #6070ff;
+  }
