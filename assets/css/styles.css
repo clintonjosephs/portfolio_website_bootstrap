@@ -1,0 +1,286 @@
+/*** Import Font **/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+/** Import font end **/
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.welcome-section {
+  background-color: #f7f7f9;
+}
+
+.logo {
+  font-weight: 700;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.headline-wrapper {
+  background-image: url("../images/header_section_background_desktop.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 110px;
+  background-color: #fff;
+  height: 820px;
+}
+
+.nav-link {
+  color: #344563;
+  font-weight: 500;
+  align-content: center;
+}
+
+.intro-text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #091e42;
+  margin: 12px 0;
+}
+
+.intro-message {
+  font-size: 18px;
+  color: #344563;
+}
+
+.works {
+  background-color: #f7f7f9;
+}
+
+.works > .works-flex {
+  padding-top: 100px;
+}
+
+.works > .works-flex:last-child {
+  padding-bottom: 100px;
+}
+
+.social-media a {
+  color: #505f79;
+}
+
+.social-media {
+  font-size: 20px;
+  color: #505f79;
+  margin: 0 8px 0 0;
+}
+
+.social {
+  padding-left: 0;
+  list-style: none;
+}
+
+.connect {
+  color: #6070ff;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.badge {
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  font-weight: normal;
+}
+
+.btn-outline-primary {
+  border-color: #6070ff;
+  color: #6070ff;
+  border-radius: 8px;
+}
+
+.btn-outline-primary:disabled {
+  background: white;
+  color: #5e6c84;
+  border-radius: 8px;
+}
+
+.btn-outline-primary:hover {
+  background: #6070ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-outline-primary:active {
+  background: #2230d2;
+  color: white;
+  border-radius: 8px;
+}
+
+.titles-item {
+  font-size: 16px;
+  color: lightslategray;
+  font-weight: 500;
+  list-style-image: url("../images/Counter.png");
+  padding-right: 25px;
+}
+
+/* Text */
+.card {
+  border-radius: 15px;
+}
+
+.card-body > ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.list-main {
+  list-style-type: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #344563;
+  padding-right: 25px;
+  line-height: 24px;
+}
+
+.aboutme {
+  background-color: #f7f7f9;
+}
+
+.aboutme-wrapper {
+  height: 100%;
+  background-color: white;
+  border-top-right-radius: 90px;
+}
+
+.accordion-button {
+  font-size: 20px;
+  font-weight: 500;
+  color: #091e42;
+}
+
+.dflex {
+  background: #f7f7f9;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.dflex > p {
+  padding-top: 10px;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.accordion {
+  margin: 30px 0 0 0;
+}
+
+.footer-container {
+  background: white;
+}
+
+.contact-wrapper {
+  background-color: #6070ff;
+  background-size: 100%;
+  border-top-left-radius: 110px;
+  margin-top: 0;
+  height: auto;
+}
+
+.contact-wrapper-two {
+  background-image: url("../images/contact_form_desktop.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-heading {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.message-contact {
+  margin-top: 5px;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 20px;
+  color: #ebebff;
+  text-align: center;
+}
+
+.btn-light {
+  width: 140px;
+  min-height: 48px;
+  border-radius: 8px;
+  background: #fff;
+  color: #6070ff;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  align-self: center;
+}
+
+.btn-light:disabled {
+  border: 2px solid #5e6c84;
+  background: white;
+  color: #5e6c84;
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.btn-light:hover {
+  border: 1px solid #6070ff;
+  background: #6070ff;
+  color: white;
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.btn-light:active {
+  background: #2230d2;
+  color: white;
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.modal-title > ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.description-text {
+  color: #5e6c84;
+}
+
+.tags {
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 20px;
+}
+
+.modal_see_btn {
+  font-size: 12px !important;
+}
+
+.golive {
+  max-width: 12px;
+  max-height: 12px;
+}
